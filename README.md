@@ -13,7 +13,7 @@ Currently, the Bounded Context Assessment contains 2 tools:
 
 ![Bounded Context Design Assessment](/resources/bounded-context-assessment-example-basic.jpg)
 
-- Bounded Context Portfolio Assessment (for visualizing the design of an entire portfolio and their relations.)
+- Bounded Context Portfolio Assessment (for visualizing the design scores of an entire portfolio and their relations.)
 
 ![Bounded Context Portfolio Assessment](/resources/bounded-context-portfolio-assessment-example.jpg)
 
