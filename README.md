@@ -19,7 +19,7 @@ Currently, the Bounded Context Assessment contains 2 tools:
 
 ## Bounded Context Design Assessment
 
-The Bounded Context Design Assessment is used to create a assign a score from 0 - 5 for each major aspect of a design: Business, Domain, Social, Technical, User Experience (UX).
+The Bounded Context Design Assessment is used to create a assign a score from 0 - 5 for each major aspect of a design: Business, Domain, Social, Technical, User Experience (UX). Scores are for the design of a single bounded context, although a single diagram could be used to compare the scores of multiple design options.
 
 The strategic classification of the bounded context (core, supporting, generic) will determine the criteria used to assign a score in each category.
 
@@ -61,6 +61,22 @@ How well does the design of this bounded context minimise negative impacts on th
 
 - How much eventual consistency will the user face as a result of the design of this context?
 - How much inconsistency into the UX will be introduced due to the design of this context?
+
+## Bounded Context Portfolio Assessment
+
+Designing bounded contexts is a trade-off. Simplifying one bounded context (local complexity) may add complexity in another bounded context or add extra complexity in the integration of bounded contexts (global complexity). The goal of designing a system is to provide the optimal design -- the design that leads to the most positive business outcomes.
+
+The purpose of the Bounded Context Portfolio Assessment is to put the design trade-offs of each context into perspective to ensure that the system is optimised for producing maximum value in the core business domains.
+
+### Insights
+
+Here are a small example of the insights that can be gleaned from the portfolio assessment (feel free to submit a PR with any others you have discovered):
+
+- When a core context has a bad design 
+- When a core context depends on other contexts which have bad design (and thus may impact the core)
+- When a high leverage context (a context with many clients) has a poor design, and thus it has the potentially to amplify it's negative effects by impacting a large number of contexts
+
+> *Note*: The portfolio view may indicate a problem but it is usually necessary to dive in deeper and explore which part of the design is causing a problem. Equally, the portfolio view will not surface all problems. It may be necessary to create alternative views comparing more granular aspects of the design
 
 ## Contributions and Feedback
 
