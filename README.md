@@ -19,7 +19,7 @@ Currently, the Bounded Context Assessment contains 2 tools:
 
 ## Bounded Context Design Assessment
 
-The Bounded Context Design Assessment is used to create a assign a score from 0 - 5 for each major aspect of a design: Business, Domain, Social, Technical, User Experience (UX). Scores are for the design of a single bounded context, although a single diagram could be used to compare the scores of multiple design options.
+The Bounded Context Design Assessment is used to create a assign a score from 0 - 5 for each major aspect of a design: Business, Domain, Social, Technical, User Experience (UX). The higher the score the better the design. Scores are for the design of a single bounded context, although a single diagram could be used to compare the scores of multiple design options.
 
 The strategic classification of the bounded context (core, supporting, generic) will determine the criteria used to assign a score in each category.
 
