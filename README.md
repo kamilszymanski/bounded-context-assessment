@@ -37,7 +37,7 @@ How well does the design of this bounded context manage the complexity of the do
 
 - Does this context align 1:1 with the ideal subdomain boundary?
 - Would a business or domain expert understand the name and purpose of this context?
-- What is the level of local complexity introduced by this context (how big and how are the complex domain rules and policies)?
+- What is the level of local complexity introduced by this context (how big and how complex are the domain rules and policies)?
 - What is the level of global complexity introduced by this context (how many external dependencies and interactions)?
 
 ### Social
